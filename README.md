@@ -59,8 +59,8 @@ This means the model's predictions deviate around 5 % on average, relative to th
 This model:
 
 - Help studios estimate viewer ratings before release.
-- Assist streaming platforms in recommending high-performing content.
-- Identify influencing features in audience response like cast, director, and critic sentiments.
+- Assists streaming platforms in recommending high-performing content.
+- Identifies influencing features in audience response like cast, director, and critic sentiments.
 
 ## Technology and Tools:
 
