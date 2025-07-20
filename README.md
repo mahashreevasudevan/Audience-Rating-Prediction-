@@ -1,10 +1,10 @@
 # Audience Rating Prediction
 
-This project focuses on predicting audience ratings for movies using structured metadata and unstructured textual information (e.g., plot summaries, cast, and director names). The project forecasts audience response for films and understand the effect of various factors on the audience response using machine learning Extreme Gradient Boosting model (XGBoost). 
+This project focuses on predicting audience ratings for movies using structured metadata and unstructured textual information (e.g., plot summaries, cast, and director names). The project predicts audience response for films and helps understand the effect of various factors on the audience response using machine learning Extreme Gradient Boosting model (XGBoost). 
 
 ## Key Objectives:
 
-- Forecast the audience rating of a movie based on its metadata, critics' consensus, cast, studio, and other features.
+- Predict the audience rating of a movie based on its metadata, critics' consensus, cast, studio, and other features.
 - Explore relationships between audience ratings and other features like runtime, critics' score, genres, etc.
 - Integrate textual and categorical data into a predictive machine learning model.
 
@@ -58,7 +58,7 @@ This means the model's predictions deviate around 5 % on average, relative to th
 
 This model:
 
-- Help studios estimate viewer ratings before release.
+- Help studios predict viewer ratings before release.
 - Assists streaming platforms in recommending high-performing content.
 - Identifies influencing features in audience response like cast, director, and critic sentiments.
 
