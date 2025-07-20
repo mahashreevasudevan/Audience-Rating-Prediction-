@@ -1,6 +1,6 @@
 # Audience Rating Prediction
 
-This project focuses on predicting audience ratings for movies using structured metadata and unstructured textual information (e.g., plot summaries, cast, and director names). The project forecasts audience response for films and understand the effect of various factors on the audience response using machine learning model XGBoost. 
+This project focuses on predicting audience ratings for movies using structured metadata and unstructured textual information (e.g., plot summaries, cast, and director names). The project forecasts audience response for films and understand the effect of various factors on the audience response using machine learning Extreme Gradient Boosting model (XGBoost). 
 
 ## Key Objectives:
 
@@ -21,7 +21,7 @@ Rotten Tomatoes movie dataset (CSV file).
 ### Feature Engineering:
 
 - Sentiment analysis using TextBlob on text fields (like critics' consensus).
-- TF-IDF vectorization for textual columns.
+- Term Frequency–Inverse Document Frequency (TF-IDF) vectorization for textual columns.
 - One-hot encoding for categorical variables.
 
 ### Modeling:
